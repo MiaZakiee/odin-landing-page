@@ -22,7 +22,7 @@ body {
     height: 50px;
 
     /* TOP RIGHT BOTTOM LEFT */
-    padding: 24px;
+    /* padding: 24px; */
 
     position: fixed;
     width: 100%;
@@ -32,7 +32,7 @@ body {
 ul {
     display: flex;
     gap: 24px;
-    font-size: 24px;
+    font-size: 1rem;
 }
 
 li {
@@ -46,7 +46,7 @@ a {
 
 .logo {
     font-weight: bolder;
-    font-size: 50px;
+    font-size: 2rem;
 }
 
 .mainPage,
@@ -70,7 +70,7 @@ a {
 }
 
 .mainContainer {
-    padding-top: 100px;
+    padding-top: 50px;
     gap: 30px;
     flex-direction: row;
 }
