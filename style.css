@@ -79,6 +79,12 @@ a {
     gap: 20px;
 }
 
+.odinLogo {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
 .odinContent {
     display: flex;
     flex-direction: column;
