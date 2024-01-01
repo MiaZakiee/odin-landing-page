@@ -50,8 +50,9 @@ a {
 
 .mainPage,
 .odinProject,
-.contactUs,
-.quote {
+.contactUs
+,.quote 
+{
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
@@ -64,13 +65,15 @@ a {
 
 .sheldon {
     display: flex;
-    float: right;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .odinContainer,
 .contactContainer,
-.mainContainer,
-.quoteBlock {
+.mainContainer
+,.quoteBlock 
+{
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
@@ -80,11 +83,10 @@ a {
 }
 
 .quoteBlock {
-    flex-direction: column;
-    justify-content: space-between;
+    display: block;
     background-color: #666;
     border-radius: 5%;
-    gap: 20px;
+    gap: 30px;
 }
 
 .mainContainer {
